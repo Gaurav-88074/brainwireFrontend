@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.signupSection{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    
+    align-items: center;
+    transition: transform 0.5s;
+    /* transform: translateX(-100%); */
+    /* border: 2px solid black; */
+}
+.radioSection{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* border: 2px solid blue; */
+    margin-top:auto;
+    padding: 5px;
+    padding-right: 10px;
+    justify-content: space-around;
+    align-items: center;
+}
+.nameInput{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    flex-wrap: wrap;
+    /* border: 2px solid blue; */
+}
+.nameSection{
+    height: 100%;
+    width: 50%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* border: 2px solid blue; */
+}
+.userNameSection{
+    height: 100%;
+    width: 50%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* border: 2px solid blue; */
+}
+.nameLabel{
+    /* height: 50%;
+    width: 30%; */
+    margin-top:auto;
+    font-weight:600;
+    font-family: sans-serif;
+    /* border: 2px solid blue; */
+}
+.nameTextInput{
+    height: 50%;
+    width: 100%;
+    border-radius:10px ;
+    margin-top:auto;
+    padding: 5px;
+    padding-left: 10px;
+    background-color: #ececec;
+    
+    border: 1px solid #f3f7f3;
+    /* border: 2px solid blue; */
+    outline: none;
+    transition: box-shadow 0.3s,background-color 0.3s;
+}
+.nameTextInput:hover{
+    background-color: #fff;
+    cursor: text;
+    box-shadow: 0px 0px 1px 1px #318df7;
+}
+.nameTextInput :active{
+    box-shadow: 0px 0px 0px 0px #318df7;
+}
+.nameTextInput:focus{
+    box-shadow: 0px 0px 1.5px 1.5px #318df7;
+    background-color: #fff;
+}
+.emailInput{
+    width: 100%;
+    height: 25%;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    /* border: 2px solid blue; */
+}
+.passwordInput{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    /* border: 2px solid blue; */
+}

@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.dashboard{
+    height:100%;
+    width: 100%;
+    background-color: #eff6fe;
+    /* background:linear-gradient(45deg, #eff6fe, #e9edff,#f8f9fe); */
+    display: flex;
+    flex-wrap: wrap;
+    /* box-shadow: inset 0px 4px 1px #d3d7eb; */
+}
+.dashboardHeader{
+    height: 10%;
+    width: 100%;
+    padding-left: 42px;
+    padding-right: 42px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 1px solid black; */
+}
+.dashOverview{
+    height: 100%;
+    width: 20%;
+    /* border: 1px solid black; */
+    padding-left: 10px;
+
+}
+.dashOverViewHead{
+    height: 50%;
+    width: 100%;
+    font-weight: bold;
+    color: rgb(85, 85, 85);
+    /* border: 1px solid black; */
+}
+.dashOverViewData{
+    height: 50%;
+    width: 100%;
+    color: rgb(80, 80, 80);
+    /* border: 1px solid black; */
+    
+}
+.registerPatient{
+    width: 15%;
+    height: 80%;
+    border-radius: 10px;
+    color: white;
+    border: none;   
+    background:linear-gradient(45deg, #318df7, #1280ff,#243cb1);
+    /* border: 1px solid black; */
+}
+.dashboardSection1{
+    height: 90%;
+    width: 70%;
+    /* border: 1px solid black; */
+}
+.ds1_1{
+    height: 15%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    /* border: 1px solid black; */
+
+}
+.ds1_1_1{
+    height: 90%;
+    width: 25%;
+    /* border-radius: 10px; */
+    background-color: #fffF;
+    /* border: 1px solid black; */
+    box-shadow: 0px 0px 4px 4px #eaf4ff;
+}
+.ds1_2{
+    height: 85%;
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content:center ;
+    align-items:center;
+}
+.ds1_2_1{
+    height: 95%;
+    width: 92%;
+    /* border-radius: 10px; */
+    background-color: #fffF;
+    /* border: 1px solid black; */
+    box-shadow: 0px 0px 4px 4px #eaf4ff;
+}
+.dashboardSection2{
+    height: 90%;
+    width: 30%;
+    display: flex;
+    justify-content:center ;
+    align-items:center;
+    /* border: 1px solid black; */
+
+}
+.ds2_1{
+    height: 96%;
+    width: 90%;
+    /* border-radius: 10px; */
+    background-color: #fffF;
+    /* border: 1px solid black; */
+    box-shadow: 0px 0px 2px 2px #eaf4ff;
+}

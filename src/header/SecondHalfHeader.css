@@ -1,0 +1,10 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.secondHalfHeader{
+    height:50%;
+    width: 100%;
+    /* border: 2px solid black; */
+}

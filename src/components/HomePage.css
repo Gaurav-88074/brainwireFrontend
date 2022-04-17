@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.homePage{
+    height:auto;
+    height: 100vh;
+    min-height: 10px;
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    /* border: 3px solid black; */
+}
+.homePageHeader{
+    height: 100px;
+    position:sticky;
+    top :0px;
+    /* min-height: 100px;
+    max-height: 100px; */
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    /* background-color: #fff7f3; */
+    /* background-color: #f5f8fe; */
+    /* border: 3px solid black; */
+}
+.hphs1{
+    height: 100%;
+    width: 15%;
+    /* border: 3px solid black; */
+}
+.hphs2{
+    height: 100%;
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 0 20px;
+    justify-content: space-around;
+    /* border: 3px solid black; */
+}
+.navItems{
+    font-size: 20px;
+    color: #0073f5;
+    font-weight:500;
+    transition: opacity 0.5s;
+    opacity: 0.8;
+    /* border: 3px solid black; */
+}
+.navItems:hover{
+    cursor: pointer;
+    opacity: 1;
+}
+.hphs3{
+    height: 100%;
+    width: 25%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 40px;
+    /* border: 3px solid black; */
+}
+.hphAuthSection{
+    padding: 9px;
+    min-width: 120px;
+    border-radius: 100px;
+    font-size: 22px;
+    border: none;
+    color: #0073f5;
+    transition: box-shadow 0.3s;
+    background-color: #fff;
+    border: 1px solid #0073f5;
+}
+.hphAuthSection:hover{
+    color: #ffff;
+    background-color: #0073f5;
+    cursor: pointer;
+    box-shadow: 0px 0px 1px 1px #0073f5;;
+}
+.hphAuthSignup{
+    color: #ffff;
+    background-color: #0073f5;
+}

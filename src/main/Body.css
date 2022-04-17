@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.body{
+    
+    /* height: 600px; */
+    height: auto;
+    width: 100%;
+    /* border: 5px solid red; */
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
